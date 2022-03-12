@@ -22,7 +22,7 @@ Project is created with:
 To run this project, install it locally using npm:
 ```
 npm init -y
-npm i inquirer
+npm i express mongoose 
 ```
 
 ## Usage

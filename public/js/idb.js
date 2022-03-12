@@ -1,6 +1,3 @@
-// The ability to enter deposits offline.
-// The ability to enter expenses offline.
-
 // create variable to hold db connection
 let db;
 
