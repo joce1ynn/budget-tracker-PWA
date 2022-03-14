@@ -30,10 +30,18 @@ npm i express mongoose
 ## Usage
 After installing npm packages, the application will be invoked by using the following command: ```npm start```.
 
-#### Deployment to Heroku Using MongoDB Atlas
-[Click me to see the app!](https://www.awesomescreenshot.com/video/7015399?key=3428a892b1ac4c806df108fb1bf83f03)
+### Deployment to Heroku Using MongoDB Atlas
+```
+heroku create
+Settings ➡️ Config Vars ➡️ KEY: MONGODB_URI ➡️ VALUE: (from MongoDB Atlas connect, change password)
+git push heroku main  
+heroku open
+```
 
-#### Example Screenshot
+
+[Click me to see the app!](https://budget-tracker-20223.herokuapp.com/)
+
+### Example Screenshot
 ![Screenshot](/public/images/BT.png)
 
 ## License
