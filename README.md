@@ -1,4 +1,4 @@
-# Node.js: Professional README Generator
+# Progressive Web Applications: Budget Tracker
 
 ## Table of Contents
 - [Description](#description)
@@ -10,13 +10,15 @@
 - [Questions](#questions)
 
 ## Description:
-This is a command-line application that dynamically generates a professional README.md file from a user's input using the Inquirer package.
+This progressive web application allows user to add expenses and deposits to their budget with or without a connection. If the user enters transactions offline, the total should be updated when they're brought back online.
 
 ## Technology:
 Project is created with:
 - Javascript
 - Node.js
-- Inquirer.js
+- Express.js
+- MongoDB
+- Mongoose
 
 ## Installation
 To run this project, install it locally using npm:
@@ -26,16 +28,13 @@ npm i express mongoose
 ```
 
 ## Usage
-After installing npm packages, the application will be invoked by using the following command: ```node index.js```.
-It accepts user input, and can display the results on a formatted README file generated in the dist folder.
+After installing npm packages, the application will be invoked by using the following command: ```npm start```.
 
-#### Walkthrough Video
-[Click me to see the demo video!](https://www.awesomescreenshot.com/video/7015399?key=3428a892b1ac4c806df108fb1bf83f03)
+#### Deployment to Heroku Using MongoDB Atlas
+[Click me to see the app!](https://www.awesomescreenshot.com/video/7015399?key=3428a892b1ac4c806df108fb1bf83f03)
 
 #### Example Screenshot
-![Screenshot](/assets/images/ET-1.png)
-![Screenshot](/assets/images/ET-2.png)
-![Screenshot](/assets/images/ET-3.png)
+![Screenshot](/public/images/BT.png)
 
 ## License
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) <br>
@@ -46,5 +45,4 @@ Made by Wenwen Tian
 
 ## Questions?
 Please feel free to contact me if you need any further information:
-- Email: wwtian9@gmail.com
 - Github Profile: https://github.com/joce1ynn
