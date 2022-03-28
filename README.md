@@ -33,7 +33,7 @@ After installing npm packages, the application will be invoked by using the foll
 ### Deployment to Heroku Using MongoDB Atlas
 ```
 heroku create
-Settings ➡️ Config Vars ➡️ KEY: MONGODB_URI ➡️ VALUE: (from MongoDB Atlas connect, change password)
+Settings ➡️ Config Vars ➡️ KEY: MONGODB_URI ➡️ VALUE: (from MongoDB Atlas connect, change password and database name)
 git push heroku main  
 heroku open
 ```
