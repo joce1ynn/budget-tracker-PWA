@@ -19,6 +19,8 @@ Project is created with:
 - Express.js
 - MongoDB
 - Mongoose
+- IndexedDB
+- Service-worker
 
 ## Installation
 To run this project, install it locally using npm:
